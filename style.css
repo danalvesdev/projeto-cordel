@@ -26,13 +26,15 @@ header{
     color: white;
     background-color: black;
     text-align: center;
-    padding-bottom: 8vh;
 }
 
 header h1 {
     padding-top: 50px;
     font-variant: small-caps;
-    font-size: 10vw;
+}
+
+header > p{
+    padding-bottom: 50px;
 }
 
 a{
