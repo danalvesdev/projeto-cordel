@@ -23,13 +23,14 @@ body {
 }
 
 header{
+    padding-top: 50px;
     color: white;
     background-color: black;
     text-align: center;
 }
 
 header h1 {
-    padding-top: 50px;
+    font-size: 5vw;
     font-variant: small-caps;
     font-family: var(--fonte2);
 }
