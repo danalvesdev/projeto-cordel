@@ -102,11 +102,16 @@ footer{
 }
 
 @media (max-width:600px) {
+
+    body{
+        min-height: 100vh;
+    }
+
     section#img01{
-        background: url(imagens/background001.jpg) right center fixed;
+        background: url(imagens/background001.jpg) center no-repeat /cover scroll;
     }
 
     section#img02{
-       background: url(imagens/background002.jpg) right center fixed;
+       background: url(imagens/background002.jpg) center no-repeat /cover scroll;
     }
 }
