@@ -100,3 +100,13 @@ footer{
     text-align: center;
     padding: 10px;
 }
+
+@media (max-width:600px) {
+    section#img01{
+        background: url(imagens/background001.jpg) right center fixed;
+    }
+
+    section#img02{
+       background: url(imagens/background002.jpg) right center fixed;
+    }
+}
